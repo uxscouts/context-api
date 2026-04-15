@@ -4,7 +4,7 @@ import { TimeContext } from '../TimeContext';
 
 function Times() {
   // 3. Access context values
-  const { theme, toggleTheme } = useContext(ThemeContext);
+  const { theme, toggleTheme } = useContext(TimeContext);
 
   return (
     <header style={{ 
@@ -17,4 +17,4 @@ function Times() {
   );
 }
 
-export default Header;
+export default Times;
